@@ -37,23 +37,22 @@ const Signup = () => {
           style={{
             display: "flex",
             gap: "10%",
+            flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
           <Button
             icon={<FcGoogle className="google" />}
-            width={"160px"}
-            height={"40px"}
             radius="50px"
+            color={"#160647"}
             text={"sign up with google"}
           />
           <h4 style={{ color: "#7A8994" }}>or</h4>
           <Button
             text={"sign up with email"}
-            width={"160px"}
-            height={"40px"}
             radius={"50px"}
+            color={"#160647"}
           />
         </div>
       </div>

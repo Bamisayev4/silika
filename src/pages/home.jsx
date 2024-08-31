@@ -9,6 +9,8 @@ import Feature from "../section/Feature";
 import Signup from "../section/signup";
 import Clientcomment from "../section/clientcomment";
 import Howitwork from "../section/howitwork";
+import Ready from "../section/ready";
+import Footer from "../section/footer";
 
 
 const Home = () => {
@@ -29,6 +31,8 @@ const Home = () => {
         <Signup />
         <Clientcomment />
         <Howitwork />
+        <Ready />
+        <Footer />
       </div>
     </div>
   );

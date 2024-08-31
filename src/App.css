@@ -1,14 +1,15 @@
-body{
+body {
   overflow-x: hidden;
 }
-.home{
+
+.home {
   background-image: url('../src/img/Photo.svg');
   background-size: cover;
   background-position: center;
   height: 100vh;
+  overflow-x: hidden;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   transition: background-color 0.5s ease;
 }
-

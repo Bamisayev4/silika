@@ -11,10 +11,11 @@
     align-items: center;
     justify-content: center;
 }
+
 .gradient {
     background-image: url('../src/img/feature/background.png');
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -23,7 +24,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-height: 40vh;
+    height: 40vh;
+}
+
+.howitdiv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    flex-direction: row;
+
+}
+
+
+
+.sha>p {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    /* justify-content: center; */
+}
+
+.hdivs {
+    display: flex;
+    height: 100%;
+    max-width: 80%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3%;
 }
 
 .downgradiv {
@@ -54,6 +80,8 @@ height: 40vh;
 }
 
 .hero__b {
+    width: 160px;
+    height: 40px;
     border: none;
     transition: all 1s ease;
 }
@@ -67,10 +95,15 @@ height: 40vh;
     align-items: center;
 }
 
+.kj {
+    min-width: 50%;
+}
+
 .logo-name {
     font-size: 24px;
     font-weight: bold;
     color: #1f1f1f;
+    height: max-content;
 }
 
 .logo-hiring {
@@ -144,9 +177,11 @@ height: 40vh;
     height: 30px;
 
 }
-.google{
- font-size: 20px;
+
+.google {
+    font-size: 20px;
 }
+
 .aboutUs {
     display: flex;
     flex-direction: column;
@@ -166,8 +201,31 @@ height: 40vh;
     max-width: 650px;
 }
 
+.dis2 {
+    display: "none";
+    flex-direction: "column";
+    align-items: "center";
+    gap: "2%";
+    float: "right";
+    margin: "0";
+    height: "100%";
+}
+
 .fcontent {
     max-width: 60%;
+}
+
+.dis {
+    display: none;
+}
+
+.dis2 {
+    display: block;
+}
+
+.hg>div {
+    display: flex;
+
 }
 
 .card {
@@ -186,10 +244,68 @@ height: 40vh;
     gap: 2%;
 }
 
+.img1 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #160647;
+    color: white;
+    padding: 10%;
+}
+
+.auto {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30%;
+}
+
+.auto>div {
+    max-width: 700px;
+}
+
+.auto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.fg {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.auto2 {
+    width: 140px;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .sponsor>img {
         width: 13%;
         height: 10%;
+    }
+
+    .dash>div {
+        display: none;
+    }
+
+    .hdivs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30%;
+
     }
 
     .sil {
@@ -197,6 +313,7 @@ height: 40vh;
         align-items: center;
         justify-content: center;
     }
+
 
     .sponsor {
         padding: 0 15%;
@@ -214,6 +331,10 @@ height: 40vh;
         display: none;
     }
 
+    .kj {
+        max-width: 70%;
+    }
+
     .hamburger {
         font-size: 30px;
         color: black;
@@ -225,6 +346,10 @@ height: 40vh;
         display: inline-flex;
         gap: 10px;
         margin-top: 10px;
+    }
+
+    .hg>div {
+        font-size: 10px;
     }
 
     .login-btn,
@@ -250,8 +375,39 @@ height: 40vh;
         display: block;
     }
 
+    .auto {
+        display: flex;
+        flex-direction: column;
+    }
+
     .card {
         margin: 0 0 10px;
     }
 
+    .img1 {
+        width: 300px;
+    }
+
+    .let {
+        width: 900px;
+    }
+
+    .arrow2 {
+        width: 25%;
+    }
+
+    .hero__b {
+        width: 120px;
+        font-size: 9px;
+    }
+
+    .fg {
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .auto2 {
+        flex-direction: column;
+        gap: 1%;
+    }
 }

@@ -43,12 +43,14 @@ const Navbar = () => {
           <Button
             className="hero__b"
             text={"Get started"}
+            radius={"5px"}
             width={"140px"}
             height={"50px"}
             backgroundcolor={"#47BEBA"}
           />
           <Button
             className="hero__b"
+            radius={"5px"}
             backgroundcolor={"#F22E52"}
             text={"How it works"}
             width={"140px"}

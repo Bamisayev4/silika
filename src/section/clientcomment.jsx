@@ -13,7 +13,7 @@ const Clientcomment = () => {
         padding: "5%",
       }}
     >
-      <h1 style={{ maxWidth: "25%", textAlign: "center", color: "#160647" }}>
+      <h1 style={{ maxWidth: "200px", textAlign: "center", color: "#160647" }} className="let">
         Let’s See What Our Clients Says
       </h1>
       <div
@@ -26,7 +26,7 @@ const Clientcomment = () => {
           marginTop: "10%",
         }}
       >
-        <img src={arrowl} />
+        <img src={arrowl} className="arrow2"/>
         <div style={{ border: "1px solid #7A8994", padding: "2%" }}>
           <div
             style={{
@@ -55,13 +55,13 @@ const Clientcomment = () => {
             </div>
           </div>
           <div>
-            <p style={{ color: "#7A8994", maxHeight: "57px" }}>
+            <p style={{ color: "#7A8994", minHeight: "57px" }}>
               Odio dictum lacus augue nulla sit integer facilisis massa. Nec et
               tellus eu amet. Faucibus sit sit massa ullamcorper
             </p>
           </div>
         </div>
-        <img src={arrow2} />
+        <img src={arrow2} className="arrow2"/>
       </div>
     </div>
   );
