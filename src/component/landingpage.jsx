@@ -31,7 +31,7 @@ const Navbar = () => {
       </header>
       <div className="hero_text">
         <div style={{ maxWidth: "400px" }}>
-          <h1>Silika Helps Marketing Agencies!</h1>
+          <h1 className="mar">Silika Helps Marketing Agencies!</h1>
         </div>
 
         <h6 style={{ padding: " 0 5%", maxWidth: "500px" }}>

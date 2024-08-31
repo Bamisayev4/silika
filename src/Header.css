@@ -298,7 +298,10 @@ width: 470px;
     .dash>div {
         display: none;
     }
-
+.dash{
+    display: none;
+    width: 0;
+}
     .hdivs {
         display: flex;
         flex-direction: column;
@@ -344,6 +347,7 @@ width: 470px;
 
     .auth-buttons {
         display: inline-flex;
+        width: 90%;
         gap: 10px;
         margin-top: 10px;
     }
@@ -354,10 +358,13 @@ width: 470px;
 
     .login-btn,
     .get-started-btn {
-        width: 100%;
+        width: 60%;
         text-align: center;
     }
-
+.mar{
+    margin: 0;
+    font-size:19px;
+}
     .profession {
         display: block;
     }
@@ -409,5 +416,11 @@ width: 470px;
     .auto2 {
         flex-direction: column;
         gap: 1%;
+        width: 200px;
+    }
+    .howitdiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

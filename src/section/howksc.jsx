@@ -76,14 +76,6 @@ const Howksc = ({ num, patittle, listnum, src }) => {
             </div>
           </div>
         </div>
-        <div
-          style={{
-            border: "1px dashed #B4B4B4",
-            height: "100%",
-            width: "0",
-            float: "right",
-          }}
-        ></div>
       </div>
     </div>
   );
